@@ -32,10 +32,10 @@ header surname {
 }
 .main{
     /* height: 12.9em; */
-    width: 65%;
-    background-color: rgb(50, 50, 50);
+     width: 85%; /* 65% */
+    background-color: rgba(47, 27, 35, 0.61); /*  rgba(50, 50, 50, 0.322); */
     background-image: url(/assets/gmexcessislandnightblurred.png);
-    border: 5px ridge #784559 ;
+    /* border: 5px ridge #784559 ; */
     			
     display: flex;
     justify-content: center;
@@ -70,13 +70,34 @@ header surname {
             font-family: 'Source Sans Pro', sans-serif;
             color: #ffffff;
             /* border: 5px ridge #784559 ; */
-    			background-color: #202126 ;
+    			background-color: #20212685 ;
                
         }
         .infotext{
             font-family: 'Source Sans Pro', sans-serif;
             font-size: small;
             color: #b3b0b0;
+        }
+        .build{
+            color: #14d4fccc;
+        }
+        .pvp{
+            color: #fc2d80cc;
+        }
+        .gray{
+            color: #868b68cc;
+        }
+        .yellow{
+            color: #f0ff1bcc;
+        }
+        .orange{
+            color: #ff891bcc;
+        }
+        .red{
+            color: #ff1b1bcc;
+        }
+        .pink{
+            color: #ff1bcecc;
         }
         .answertext{
             font-family: 'Source Sans Pro', sans-serif;
@@ -92,7 +113,7 @@ header surname {
             
             font-family: 'Source Sans Pro', sans-serif;
             color: aqua;
-            border: 5px ridge #784559 ;
+            /* border: 5px ridge #784559 ; */
     			background-color: #202126 ;
                 line-height: 2.5;
                 padding: 0 20px;
@@ -108,12 +129,16 @@ header surname {
         .butt1{
             font-family: 'Source Sans Pro', sans-serif;
             color: aqua;
-            border: 5px ridge #784559 ;
-            background-color: #7c7c7c ;
-                box-shadow: inset -2px -2px 3px rgba(56, 56, 56, 0.6), inset 2px 2px 3px rgba(0, 0, 0, 0.6);
-                line-height: 2.5;
-                padding: 0 20px;
+            /* border: 5px ridge #784559 ; */
+             background-color: #784559c5 ;        /* background-color: #7c7c7c ; */
+                /* box-shadow: inset -2px -2px 3px rgba(56, 56, 56, 0.6), inset 2px 2px 3px rgba(0, 0, 0, 0.6); */
+                 line-height: 2.5; 
+                 padding: 0 20px; 
         }
         li {
     list-style-type: none;
 }
+        summary{
+            font-family: 'Roboto', sans-serif;
+                         color: hotpink;
+        }
