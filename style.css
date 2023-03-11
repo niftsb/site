@@ -75,10 +75,9 @@ header surname {
         }
         .infotext{
             font-family: 'Source Sans Pro', sans-serif;
-            font-size: small;
+            font-size: medium;
             color: #b3b0b0;
         }
-/*  color*/
         .build{
             color: #14d4fccc;
         }
@@ -100,11 +99,9 @@ header surname {
         .pink{
             color: #ff1bcecc;
         }
-
-
         .answertext{
             font-family: 'Source Sans Pro', sans-serif;
-            font-size: small;
+            font-size: medium;
             color: #b3b0b0;
         }
                     a {
@@ -112,24 +109,24 @@ header surname {
                          color: hotpink;
             
             }
-
-/*  buttons*/
         .butt{
-            
+            cursor: pointer;
             font-family: 'Source Sans Pro', sans-serif;
             color: aqua;
-            /* border: 5px ridge #784559 ; */
+             /* border: 5px ridge #202126 ;  */
     			background-color: #202126 ;
                 line-height: 2.5;
                 padding: 0 20px;
         }
         .butt:hover {
+            
             background-color: #3b3b3b ;
+            
         }
 
         .butt:active {
             background-color: #7c7c7c ;
-                box-shadow: inset -2px -2px 3px rgba(255, 255, 255, 0.6), inset 2px 2px 3px rgba(0, 0, 0, 0.6);
+                /* box-shadow: inset -2px -2px 3px rgba(255, 255, 255, 0.6), inset 2px 2px 3px rgba(0, 0, 0, 0.6); */
         }
         .butt1{
             font-family: 'Source Sans Pro', sans-serif;
@@ -140,11 +137,9 @@ header surname {
                  line-height: 2.5; 
                  padding: 0 20px; 
         }
-/*  */
         li {
     list-style-type: none;
-	}
-
+}
         summary{
             font-family: 'Roboto', sans-serif;
                          color: hotpink;
