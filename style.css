@@ -1,0 +1,119 @@
+header {
+    height: 12.9em;
+    width: 65%;
+    background-color: rgb(50, 50, 50);
+    background-image: url(/assets/gmexcessislandnightblurred.png);
+
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+}
+header name {
+    font-size: 50px;
+    font-weight: bold;
+    
+    text-align: center;
+    text-shadow: 1px 1px .4em black;
+
+    color: white;
+    cursor: default;
+}
+header name a {color: white; transition: .1s;} header name a:hover {color: rgb(200, 200, 200)}
+header surname {
+    font-size: 30px;
+    font-weight: bold;
+    
+    text-align: center;
+    text-shadow: 1px 1px .4em black;
+
+    color: rgb(175, 175, 175);
+    cursor: default;
+}
+.main{
+    /* height: 12.9em; */
+    width: 65%;
+    background-color: rgb(50, 50, 50);
+    background-image: url(/assets/gmexcessislandnightblurred.png);
+    border: 5px ridge #784559 ;
+    			
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+}
+
+        	body{
+			
+			background-image:url("a.jpg");
+			background-color: #2f2430;	
+			  background-repeat: no-repeat;
+			  background-position: center center;
+			  background-attachment: fixed;
+			  -webkit-background-size: cover;
+			  -moz-background-size: cover;
+			  -o-background-size: cover;
+			  background-size: cover;
+		}
+          @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&family=Source+Sans+Pro:wght@200;600;700&display=swap');
+        .title{
+            font-family: 'Roboto', sans-serif;
+            color: aqua;
+             border: 5px ridge #784559 ;
+    			background-color: #202126c0 ;
+  			  position: sticky;
+                margin: auto;
+                width: 65%;
+   			
+        }
+        .rules{
+            font-family: 'Source Sans Pro', sans-serif;
+            color: #ffffff;
+            /* border: 5px ridge #784559 ; */
+    			background-color: #202126 ;
+               
+        }
+        .infotext{
+            font-family: 'Source Sans Pro', sans-serif;
+            font-size: small;
+            color: #b3b0b0;
+        }
+        .answertext{
+            font-family: 'Source Sans Pro', sans-serif;
+            font-size: small;
+            color: #b3b0b0;
+        }
+                    a {
+                        font-family: 'Roboto', sans-serif;
+                         color: hotpink;
+            
+            }
+        .butt{
+            
+            font-family: 'Source Sans Pro', sans-serif;
+            color: aqua;
+            border: 5px ridge #784559 ;
+    			background-color: #202126 ;
+                line-height: 2.5;
+                padding: 0 20px;
+        }
+        .butt:hover {
+            background-color: #3b3b3b ;
+        }
+
+        .butt:active {
+            background-color: #7c7c7c ;
+                box-shadow: inset -2px -2px 3px rgba(255, 255, 255, 0.6), inset 2px 2px 3px rgba(0, 0, 0, 0.6);
+        }
+        .butt1{
+            font-family: 'Source Sans Pro', sans-serif;
+            color: aqua;
+            border: 5px ridge #784559 ;
+            background-color: #7c7c7c ;
+                box-shadow: inset -2px -2px 3px rgba(56, 56, 56, 0.6), inset 2px 2px 3px rgba(0, 0, 0, 0.6);
+                line-height: 2.5;
+                padding: 0 20px;
+        }
+        li {
+    list-style-type: none;
+}
