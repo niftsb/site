@@ -1,162 +1,30 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="ru">
-<head>
-  <meta charset="utf-8" />
-  <title>привет :)</title>
-  <link rel="stylesheet" href="style.css" />
-	<style>	
-		body{
-			
-			background-image:url("fon_optimized.jpg");
-			background-color: #F23869;	
-			  background-repeat: no-repeat;
-			  background-position: center center;
-			  background-attachment: fixed;
-			  -webkit-background-size: cover;
-			  -moz-background-size: cover;
-			  -o-background-size: cover;
-			  background-size: cover;
-		}
-		.hello{
-   			 border: 15px ridge #F23869 ;
-    			background-color: #202126 ;
-  			  padding-right: 35px;
-   			 display: flex;
-   			 flex-direction: column;
-			}
-
-		.hello img {
-   		 width: 100%;
-		}
-
-		.hello p {
-    		font: small-caps bold 1.2rem sans-serif;
-   		 text-align: center;
-		 font-color:"#F23869 ";
-		}
-		.text-block{	
-		 border: 15px ridge #F23869 ;
-		   font: small-caps bold 1.2rem sans-serif;
-		   position: absolute;
-  		   /* bottom: 900px; */
-   		   /* right: 0px; */
-  		   background-color: #202126;
- 		   color: white;
- 		   /* padding-left: 200px; */
- 		   /* padding-right: 250px; */
-		  
-		}
-		.text-block2{
-		 border: 15px ridge #F23869 ;
-		   font: small-caps bold 1.2rem sans-serif;
-  		   bottom: 625px;
-   		   right: 0px;
-  		   background-color: #202126;
- 		   color: white;
- 		   /* padding-left: 20px; */
- 		   /* padding-right: 20px; */
-		}
-		.load{
-	           border: 15px ridge #F23869 ;
-		   font: small-caps bold 1.2rem sans-serif;
-	           position: absolute;
-  		   bottom: 300px;
-   		   right: 0px;
-  		   background-color: #202126;
- 		   color: white;
- 		   /* padding-left: 20px; */
- 		   /* padding-right: 20px; */
-		}
-		.rules{
-		 border: 15px ridge #F23869 ;
-		   font: small-caps bold 1.2rem sans-serif;
-		   position: absolute;
-  		  	bottom: 45%;
-			left: 1%;
-  		   background-color: #202126;
- 		   color: white;
- 		   /* padding-left: 40px; */
- 		   /* padding-right: 40px; */
-		}
-		.loader {
- 			 border: 16px solid #F23869; 
-   			 border-top: 16px solid #F23869; 
-			 border-right: 16px solid #202126;
-			 border-left: 16px solid #202126;
-   			 border-radius: 50%;
-   			 width: 120px;
-   			 height: 120px;
-   			 animation: spin 2s linear infinite;
-		}
-		.Nift{	
-		 /*border: 15px ridge #F23869 ;*/
-		   border: 5px ridge #784559 ;
-    	   background-color: #202126c0 ;
-		   font: small-caps bold 1.2rem sans-serif;
-		   position: absolute;
-			top: 1%;
-			left: 35%;
-  		   /*background-color: #202126;*/
- 		   color: white;
-		}
- 		 	.Nift2{	
-		    border: 5px ridge #784559 ;
-    	    background-color: #202126c0 ;
-		    font: small-caps bold 1.2rem sans-serif;
-		    position: absolute;
-			bottom: 1%;
-			left: 1px;
-  		   /*background-color: #202126;*/
- 		   color: white;
-		} 
-		@keyframes spin {
-    		0% { transform: rotate(0deg); }
-   		 100% { transform: rotate(360deg); }
-		}
-		
-	</style>
-
-</head>
-<body>
+  <head>
+    <meta charset="utf-8" />
+    <title>привет :)</title>
+    <link rel="stylesheet" href="loading.css" />
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Roboto:wght@100&display=swap" rel="stylesheet">
+  </head>
+  <body>
 	
-	<div class="Nift">
-		<h2>Добро пожаловать на Nift!</h2>
-		<!--<h4>Cандбокс-сервер созданный Wesed</h4>-->
-	
-	</div>
-	
-<!--	<audio id="music" src="123.mp3" autoplay="true" preload="auto"></audio> -->
+    <div class="blurfull">
+      <div class="title_bg">
+        <h2 class="title_text">Добро пожаловать на Nift</h2>
+      </div>
+	  <div class="title_music">
+		<p >Сейчас играет <br><br> 
+      <p  id="now-plain">  </p> 
+    </p>
+	  </div>
+	  
+    </div>
 
-                
-
-	<div class="Nift2"> 
-	<p> Фичи сервера</p>
-	<ul>
-	 <li>WireMod</li>
-  	  <li>BuildMod</li>
-	  <li>AdvancedDublicator 2</li>
-	  <li>Загрузка любого скина</li>
-	  <li>Ламповая атмосфера</li>
-	</ul>
-	</div> 
-
-	
-	<!-- <div class="load">
-	<p>Загржаемся...</p>
-	<div class="loader" aligh="right"></div>
-	</div> 
-
-	 <div class="rules">
-	<p>Основные правила</p>
-	<ul>
-	 <li>Запрещено издавать неприятные звуки в микрофон</li>
-  	  <li>Запрещено нарушать работу сервера</li>
-	  <li>Запрещено убивать/закрывать пропами игроков</li>
-	  <li>Запрещено ограничивать возможность покинуть спавн игрокам</li>
-	</ul>
-	</div>-->
-	
-<audio id="music" autoplay="true" <!--preload="auto"--> ></audio>
-<iframe id = "spopafi" style="border-radius:12px" width="20%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
-<script src="javasquirt.js"> </script>
-</body>
+    <audio id="music" autoplay="true" preload="auto"></audio>
+    
+	<script src="javasquirt.js"></script>
+  </body>
+  
+</html>
