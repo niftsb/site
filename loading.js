@@ -1,5 +1,5 @@
 let audio = document.getElementById("music");
-// audio.volume = 0.25;
+audio.volume = 0.25;
 function music(name, author, path){
     this.name = name; // Название музяки
     this.author = author; // Тот кто умудрился такое сочинить
@@ -8,17 +8,6 @@ function music(name, author, path){
 function getRandomInt(max) {
     return Math.floor(Math.random() * max);
 }
-
-function raibow(){
-    let r = 244, g = 41, b = 41;
-    
-    while (g == 244){
-        r--;
-        g++
-        console.log(r,g,b)
-    }
-}
-// , _n = new music('', '')
 const musicList = [
     new music('Better Days', 'LAKEY INSPIRED', 'better_days.mp3')
     ,new music('Hyper-ballad', 'Björk', 'hyperballad.mp3')
