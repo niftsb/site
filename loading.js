@@ -1,5 +1,5 @@
 let audio = document.getElementById("music");
-audio.volume = 0.25;
+audio.volume = 0.15;
 function music(name, author, path){
     this.name = name; // Название музяки
     this.author = author; // Тот кто умудрился такое сочинить
